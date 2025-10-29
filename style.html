@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhoomika N | Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Bhoomika N</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item">
+            <button id="modeToggle" class="btn btn-outline-light btn-sm ms-2"><i class="bi bi-moon"></i></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5 bg-light hero">
+    <img src="YOUR_IMAGE.jpg" class="profile-img mb-3" alt="Bhoomika Photo">
+    <h1 class="fw-bold">Bhoomika N</h1>
+    <p class="text-muted">AI-ML | Creative Thinker | Future Innovator</p>
+    <a href="projects.html" class="btn btn-primary mt-3"><i class="bi bi-arrow-right-circle"></i> View My Projects</a>
+  </header>
+
+  <!-- Summary -->
+  <section class="container my-5">
+    <h3 class="section-title">Professional Summary</h3>
+    <p>
+      I am a motivated Computer Science (AI-ML) undergraduate passionate about solving problems through innovation.
+      I enjoy learning, exploring AI concepts, and developing impactful software projects that combine creativity and technology.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="container text-center my-5">
+    <h3 class="section-title">Technical Skills</h3>
+    <div class="row mt-3">
+      <div class="col-md-3"><div class="skill-card"><i class="bi bi-code-slash fs-1 text-primary"></i><p>Python, SQL</p></div></div>
+      <div class="col-md-3"><div class="skill-card"><i class="bi bi-robot fs-1 text-success"></i><p>AI & Machine Learning</p></div></div>
+      <div class="col-md-3"><div class="skill-card"><i class="bi bi-diagram-3 fs-1 text-warning"></i><p>Data Structures</p></div></div>
+      <div class="col-md-3"><div class="skill-card"><i class="bi bi-laptop fs-1 text-info"></i><p>VS Code, Jupyter</p></div></div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="container my-5">
+    <h3 class="section-title">Education</h3>
+    <ul>
+      <li><strong>B.E. (AI-ML)</strong> – Global Academy of Technology (2023–2027)</li>
+      <li>Pre-University (PCMC) – MES Kishora Kendra, 2023</li>
+      <li>SSLC – Nirmala Rani High School, 2021</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Bhoomika N | Made with ❤ using Bootstrap</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const btn=document.getElementById('modeToggle');
+    btn.onclick=()=>{document.body.classList.toggle('dark-mode');};
+  </script>
+</body>
+</html>
